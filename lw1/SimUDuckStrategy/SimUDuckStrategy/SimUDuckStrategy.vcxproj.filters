@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Quack">
+      <UniqueIdentifier>{5fe0ddbd-d2a3-4219-ab36-4a1e6294a1a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Duck">
+      <UniqueIdentifier>{ecc9b56f-f6a9-4f6f-b128-a03d3ed16811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fly">
+      <UniqueIdentifier>{6a07253b-62d0-4804-bdd0-92c55fb53d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dance">
+      <UniqueIdentifier>{492d0f6c-8293-4be3-a607-522489402dec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SimUDuck.cpp">
@@ -27,16 +39,10 @@
     <ClCompile Include="IDanceBehavior.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="IQuackBehavior.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="ModelDuck.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="FlyWithWings.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="FlyNoWay.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="QuackBehavior.cpp">
@@ -54,9 +60,6 @@
     <ClCompile Include="WaltzDanceBehavior.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DanceNoWay.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="MallardDuck.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -71,56 +74,56 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Duck.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="IFlyBehavior.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="IDanceBehavior.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="IQuackBehavior.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ModelDuck.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="FlyWithWings.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="FlyNoWay.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="QuackBehavior.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Quack</Filter>
     </ClInclude>
     <ClInclude Include="SqueakBehavior.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Quack</Filter>
+    </ClInclude>
+    <ClInclude Include="IQuackBehavior.h">
+      <Filter>Header Files\Quack</Filter>
     </ClInclude>
     <ClInclude Include="MuteQuackBehavior.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MinuetDanceBehavior.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="WaltzDanceBehavior.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DanceNoWay.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MallardDuck.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="RedheadDuck.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Quack</Filter>
     </ClInclude>
     <ClInclude Include="DecoyDuck.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Duck</Filter>
+    </ClInclude>
+    <ClInclude Include="Duck.h">
+      <Filter>Header Files\Duck</Filter>
+    </ClInclude>
+    <ClInclude Include="MallardDuck.h">
+      <Filter>Header Files\Duck</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelDuck.h">
+      <Filter>Header Files\Duck</Filter>
     </ClInclude>
     <ClInclude Include="RubberDuck.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Duck</Filter>
+    </ClInclude>
+    <ClInclude Include="RedheadDuck.h">
+      <Filter>Header Files\Duck</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyNoWay.h">
+      <Filter>Header Files\Fly</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyWithWings.h">
+      <Filter>Header Files\Fly</Filter>
+    </ClInclude>
+    <ClInclude Include="IFlyBehavior.h">
+      <Filter>Header Files\Fly</Filter>
+    </ClInclude>
+    <ClInclude Include="DanceNoWay.h">
+      <Filter>Header Files\Dance</Filter>
+    </ClInclude>
+    <ClInclude Include="IDanceBehavior.h">
+      <Filter>Header Files\Dance</Filter>
+    </ClInclude>
+    <ClInclude Include="MinuetDanceBehavior.h">
+      <Filter>Header Files\Dance</Filter>
+    </ClInclude>
+    <ClInclude Include="WaltzDanceBehavior.h">
+      <Filter>Header Files\Dance</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

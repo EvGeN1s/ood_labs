@@ -2,5 +2,5 @@
 
 void MinuetDanceBehavior::Dance()
 {
-	std::cout << "I'm dancing minuete!!!";
+	std::cout << "I'm dancing minuete!!!\n";
 }

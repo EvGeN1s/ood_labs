@@ -26,6 +26,7 @@ int main()
 {
 	MallardDuck mallardDuck;
 	PlayWithDuck(mallardDuck);
+	PlayWithDuck(mallardDuck);
 
 	RedheadDuck redheadDuck;
 	PlayWithDuck(redheadDuck);
@@ -40,4 +41,8 @@ int main()
 	PlayWithDuck(modelDuck);
 	modelDuck.SetFlyBehavior(std::make_unique<FlyWithWings>());
 	PlayWithDuck(modelDuck);
+
+	auto flyNBehaviour = std::make_unique<FlyWithWings>();
+
+	mallardDuck.SetFlyBehavior(flyNBehaviour);
 }

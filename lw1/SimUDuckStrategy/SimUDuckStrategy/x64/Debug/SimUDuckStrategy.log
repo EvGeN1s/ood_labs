@@ -1,5 +1,6 @@
-﻿  MallardDuck.cpp
-  MinuetDanceBehavior.cpp
+﻿  DecoyDuck.cpp
+  ModelDuck.cpp
   SimUDuck.cpp
   Generating Code...
+  LINK : C:\volgatech_3year\ood\lw1\SimUDuckStrategy\x64\Debug\SimUDuckStrategy.exe not found or not built by the last incremental link; performing full link
   SimUDuckStrategy.vcxproj -> C:\volgatech_3year\ood\lw1\SimUDuckStrategy\x64\Debug\SimUDuckStrategy.exe

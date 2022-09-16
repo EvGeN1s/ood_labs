@@ -15,17 +15,17 @@ void Duck::Quack() const
 	m_quackBehavior->Quack();
 }
 
-void Duck::Swim()
+void Duck::Swim() const
 {
 	std::cout << "I'm swimming" << std::endl;
 }
 
-void Duck::Fly()
+void Duck::Fly() const
 {
 	m_flyBehavior->Fly();
 }
 	
-void Duck::Dance()
+void Duck::Dance() const
 {
 	m_danceBehavior->Dance();
 }

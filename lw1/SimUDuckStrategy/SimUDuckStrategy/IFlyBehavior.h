@@ -1,6 +1,7 @@
 #pragma once
-struct IFlyBehavior
+class IFlyBehavior
 {
+public:
 	virtual ~IFlyBehavior() {};
 	virtual void Fly() = 0;
 };

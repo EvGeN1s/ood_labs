@@ -7,3 +7,4 @@ class MinuetDanceBehavior : public IDanceBehavior
 public:
 	void Dance() override;
 };
+

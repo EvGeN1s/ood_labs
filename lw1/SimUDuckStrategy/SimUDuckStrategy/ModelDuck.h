@@ -8,6 +8,6 @@ public:
 	ModelDuck();
 	
 	void Display() const override;	
-	void Dance() override {}
+	void Dance() const override {}
 };
 

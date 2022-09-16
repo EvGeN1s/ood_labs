@@ -15,9 +15,9 @@ public:
 		std::unique_ptr<IDanceBehavior>&& danceBehavior);		
 	
 	void Quack() const;	
-	void Swim();	
-	void Fly();	
-	virtual void Dance();	
+	void Swim() const;	
+	void Fly() const;	
+	virtual void Dance() const; 	
 	void SetFlyBehavior(std::unique_ptr<IFlyBehavior>&& flyBehavior);	
 	virtual void Display() const = 0;
 	virtual ~Duck() = default;

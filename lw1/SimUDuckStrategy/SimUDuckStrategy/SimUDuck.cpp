@@ -44,5 +44,9 @@ int main()
 
 	auto flyNBehaviour = std::make_unique<FlyWithWings>();
 
-	mallardDuck.SetFlyBehavior(flyNBehaviour);
+	mallardDuck.SetFlyBehavior(std::move(flyNBehaviour));
+	PlayWithDuck(modelDuck);
+	PlayWithDuck(modelDuck);
+
+
 }

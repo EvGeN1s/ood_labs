@@ -27,12 +27,9 @@ private:
 	void PrintMeasurments()const;
 	void PrintMeasurment(const StatsMesaurment& measurment)const;
 
-	double m_minTemperature = std::numeric_limits<double>::infinity();
-	double m_maxTemperature = -std::numeric_limits<double>::infinity();
-	double m_accTemperature = 0;
 	unsigned m_countAcc = 0;
 
-	std::vector<StatsMesaurment>  m_measurments = {
+	std::vector<StatsMesaurment> m_measurments = {
 		{MeasurmentType::TEMPEARTURE},
 		{MeasurmentType::HUMIDITY},
 		{MeasurmentType::PRESSURE},

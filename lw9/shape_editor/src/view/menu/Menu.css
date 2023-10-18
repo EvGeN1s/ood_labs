@@ -1,0 +1,10 @@
+.Menu{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 25%;
+    align-items: center;
+
+    outline: 2px black solid;
+}
